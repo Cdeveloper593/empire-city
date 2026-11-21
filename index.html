@@ -17,6 +17,8 @@
       --sw-font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .sw-root.sw-night{--sw-ink:#F4EEE2;--sw-ink-soft:#B9C0D8}
+    /* No scroll progress bar at the top (user request, 2026-11-21) */
+    .sw-scrollbar{display:none;}
     /* Brand mark: Empire State Building silhouette (overrides the engine's blob) */
     .sw-brand__mark{
       border-radius:0;
